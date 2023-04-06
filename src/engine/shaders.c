@@ -4,7 +4,7 @@
 static bool compile_shader(char *shader_file_path, 
                            GLenum shader_type, 
                            GLuint *shader) {
-  
+
 
   FILE *fptr;
 

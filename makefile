@@ -1,7 +1,6 @@
 # Project structure
 SOURCE_FILES = src/engine/glad/src/glad.c \
 							 src/main.c \
-							 src/engine/window.c \
 							 src/engine/shaders.c
 
 HEADER_FILES = src/engine/window.h \
@@ -10,10 +9,9 @@ HEADER_FILES = src/engine/window.h \
 
 OBJECT_FILES = src/engine/glad/src/glad.o \
 							 src/main.o \
-							 src/engine/window.o \
 							 src/engine/shaders.o
 
-EXE_NAME = voxel-world
+EXE_NAME = template 
 
 # Compiler settings/config
 CC = gcc
